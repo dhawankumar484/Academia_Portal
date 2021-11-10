@@ -1,0 +1,738 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #F7F6F2;
+  }
+
+  header{
+    width: 1255px;
+    height: 52px;
+    background-color: #053742;
+    margin-top: -85px;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 17px;
+  }
+
+  header h1{
+    margin-left: 458px;
+    margin-top: 14px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+  }
+
+  header button{
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    background-color:skyblue;
+    border: none;
+    margin-right: 20px;
+    margin-top: 17px;
+    float: right;
+    
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #112031;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .sidenav i {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    display: block;
+    margin-top: 50px;
+    margin-left: 45px;
+  }
+
+  .sidenav a {
+    text-decoration: none;
+  }
+  
+  .sidenav i:hover {
+    color: #f1f1f1;
+  }
+
+  /* main */
+
+  .container{
+    width: 609px;
+    height: 240px;
+    margin-left: 255px;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  /* attendance */
+  
+  .attendance {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 260px;
+    background-color: #3498DB;
+    height: 75px;
+    float: left;
+    border-radius: 15px;
+    text-align:initial;
+    font-size: 28px; 
+    padding: 10px 10px;
+  }
+
+  .attendance h1{
+    margin-left: 150px;
+    font-size: 55px;
+    margin-top: 9px;
+    color: #fff;
+    
+  }
+  .attendance h4{
+    margin-top: 37px;
+    margin-left: 5px;
+    float: left;
+  }
+
+  /* percentage */
+  .Percentage{
+    margin-left: 313px;
+    margin-top: -95px;
+    width: 260px;
+    background-color: #FEE440;
+    height: 75px;
+    float: left;
+    border-radius: 15px;
+    text-align:initial;
+    font-size: 28px; 
+    padding: 10px 10px;
+  }
+
+  .Percentage h1{
+    margin-left: 150px;
+    font-size: 55px;
+    margin-top: 9px;
+    color: #fff;
+    
+  }
+  .Percentage h4{
+    margin-top: 37px;
+    margin-left: 5px;
+    float: left;
+  }
+
+  /* assignment */
+
+  .assignment{
+    margin-left: 15px;
+    margin-top: 19px;
+    width: 260px;
+    background-color: #6ECB63;
+    height: 75px;
+    float: left;
+    border-radius: 15px;
+    text-align:initial;
+    font-size: 28px; 
+    padding: 10px 10px;
+  }
+
+  .assignment h1{
+    margin-left: 170px;
+    font-size: 55px;
+    margin-top: 9px;
+    color: #fff;
+    
+  }
+  .assignment h4{
+    margin-top: 37px;
+    margin-left: 5px;
+    float: left;
+  }
+
+  .experiment{
+    margin-left: 313px;
+    margin-top: -95px;
+    width: 260px;
+    background-color: #f14444;
+    height: 75px;
+    float: left;
+    border-radius: 15px;
+    text-align:initial;
+    font-size: 28px; 
+    padding: 10px 10px;
+  }
+
+  .experiment h1{
+    margin-left: 170px;
+    font-size: 55px;
+    margin-top: 9px;
+    color: #fff;
+    
+  }
+  .experiment h4{
+    margin-top: 37px;
+    margin-left: 4px;
+    float: left;
+  }
+
+  /* profile */
+
+  .profile{
+    width: 320px;
+    height: 110px;
+    background-color: #EDEDED;
+    margin-left: 880px;
+    margin-top: 25px;
+    border-radius: 15px;
+    margin-bottom: -10px;
+    padding: 20px;
+  }
+
+  .profile h1{
+    margin-top: -5px;
+  }
+
+  .profile h3{
+    margin-top: -10px;
+    float: left;
+  }
+
+  .profile .profile-photo{
+    width: 100px;
+    height: 100px;
+    margin-left: 220px;
+    margin-top: -60px;
+    background-color: black;
+    border-radius: 50%;
+  }
+
+  .profile-photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  /* hr */
+
+  #after-blocks-hr{
+    width: 990px;
+    margin-left: 255px;
+    margin-top: 30px;
+    height: 3px;
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+  }
+
+  /* container-2 */
+
+  .container-2{
+    width: 517px;
+    height: 305px;
+    margin-left: 260px;
+    margin-top: 20px;
+    float: left;
+    background-color: #EDEDED;
+    border-radius: 20px;
+  }
+
+  /* syllabus */
+
+  .syllabus{
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-left: 60px;
+    padding-top: 3px;
+    padding-bottom: 6px ;
+    border-radius: 15px;
+    height: 65px;
+    width: 425px;
+    float: left;
+    background-color: #BBBBBB;
+    color: white;
+  }
+
+ #syllabus-heading{
+   margin-top: -40px;
+   float: left;
+ }
+ 
+ #syllabus-hr{
+   width: 4px;
+   height: 35px;
+   margin-left: -15px;
+   margin-top: 18px;
+   background-color: #F037A5;
+   border-style: none;
+   border-radius: 2px;
+ }
+
+ .syllabus-button{
+  width: 75px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #49c1a2;
+  margin-top: -46px;
+  margin-right: 17px;
+  float: right;
+  font-size: 15px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.syllabus-button:hover{
+  background-color: #0fc947;
+  cursor: pointer;
+}
+
+#syllabus-div{
+  width: 200px;
+  height: 320px;
+  background-color: #d4d4d4;
+  margin-left: 426px;
+  margin-top: -55px;
+  float: left;
+  background-color: gray;
+  border-color: #d4d4d4;
+  border-radius: 8px;
+  padding-left: 25px;
+  padding-top: 10px;
+  line-height: 30px;
+  display: none;
+}
+
+.eng-syllabus:hover{
+  color: black;
+  background-color: #fff;
+  width: 150px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cloud-syllabus:hover{
+  color: black;
+  background-color: #fff;
+  width: 150px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.maths-syllabus:hover{
+  color: black;
+  background-color: #fff;
+  width: 150px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ds-syllabus:hover{
+  color: black;
+  background-color: #fff;
+  width: 150px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.gd-syllabus:hover{
+  color: black;
+  background-color: #fff;
+  width: 150px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.lr-syllabus:hover{
+  color: black;
+  background-color: #fff;
+  width: 150px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ /* assigments by subjects */
+
+ .assignment-subject{
+  margin-left: 15px;
+  margin-top: 25px;
+  padding-left: 60px;
+  padding-top: 3px;
+  float: left;
+  padding-bottom: 6px ;
+  border-radius: 15px;
+  height: 65px;
+  width: 425px;
+  background-color: #BBBBBB;
+  color: white;
+}
+
+#assignment-heading{
+ margin-top: -40px;
+ float: left;
+ font-size: 25px;
+}
+
+#assignment-hr{
+ width: 4px;
+ height: 35px;
+ margin-left: -15px;
+ margin-top: 18px;
+ background-color: #F037A5;
+ border-style: none;
+ border-radius: 2px;
+}
+
+.assignment-button{
+width: 75px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: #49c1a2;
+margin-top: -46px;
+margin-right: 17px;
+float: right;
+font-size: 15px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.assignment-button:hover{
+background-color: #0fc947;
+cursor: pointer;
+}
+
+#assignment-div{
+width: 200px;
+height: 320px;
+background-color: #d4d4d4;
+margin-left: 426px;
+margin-top: -55px;
+float: left;
+background-color: gray;
+border-color: #d4d4d4;
+border-radius: 8px;
+padding-left: 25px;
+padding-top: 10px;
+line-height: 30px;
+display: none;
+}
+
+.eng-assignment:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.cloud-assignment:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.maths-assignment:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.ds-assignment:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.gd-assignment:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.lr-assignment:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+/* studymaterials by subjects */
+
+.studymaterial-subject{
+  margin-left: 15px;
+  margin-top: 25px;
+  padding-left: 60px;
+  padding-top: 3px;
+  float: left;
+  padding-bottom: 6px ;
+  border-radius: 15px;
+  height: 65px;
+  width: 425px;
+  float: left;
+  background-color: #BBBBBB;
+  color: white;
+}
+
+#studymaterial-heading{
+ margin-top: -40px;
+ float: left;
+ font-size: 25px;
+}
+
+#studymaterial-hr{
+ width: 4px;
+ height: 35px;
+ margin-left: -15px;
+ margin-top: 18px;
+ background-color: #F037A5;
+ border-style: none;
+ border-radius: 2px;
+}
+
+.studymaterial-button{
+width: 75px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: #49c1a2;
+margin-top: -46px;
+margin-right: 17px;
+float: right;
+font-size: 15px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.studymaterial-button:hover{
+background-color: #0fc947;
+cursor: pointer;
+}
+
+#studymaterial-div{
+width: 200px;
+height: 320px;
+background-color: #d4d4d4;
+margin-left: 426px;
+margin-top: -55px;
+float: left;
+background-color: gray;
+border-color: #d4d4d4;
+border-radius: 8px;
+padding-left: 25px;
+padding-top: 10px;
+line-height: 30px;
+display: none;
+}
+
+.eng-studymaterial:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.cloud-studymaterial:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.maths-studymaterial:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.ds-studymaterial:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.gd-studymaterial:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.lr-studymaterial:hover{
+color: black;
+background-color: #fff;
+width: 150px;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+/* Middle Line */
+
+.middle-line{
+  width: 2px;
+  height: 310px;
+  background-color: black;
+  margin-left: 65px;
+  margin-top: 10px;
+  float: left;
+}
+
+
+  /* upcoming-exams */
+
+  .upcoming-exams{
+    height: 285px;
+    width: 245px;
+    margin-left: 954px;
+    margin-top: 16px;
+    background-color: rgb(185, 183, 183);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+  }
+
+  .upcoming-exams .upcoming-exam-head {
+    margin-top: 6px;
+  }
+
+  /* Exam-1  */
+
+  .exam-1{
+    width: 245px;
+    height: 70px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    margin-top: -6px;
+  }
+
+  .exam-1 h1{
+    float: left;
+    margin-left: 18px;
+    font-size: 40px;
+    margin-top: -7px;
+    padding-top: 15px;
+
+  }
+  .exam-1 p{
+    float: left;
+    font-size: 18px;
+    margin-top: -7px;
+    padding-top: 17px;
+    margin-right: 40px;
+    margin-left: 15px;
+  }
+  .exam-1 h2{
+    margin-bottom: -10px;
+    margin-left: 132px;
+    padding: 16px;
+  }
+
+  /* Exam-2 */
+  .exam-2{
+    width: 245px;
+    height: 70px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+  }
+
+  .exam-2 h1{
+    float: left;
+    margin-left: 18px;
+    font-size: 40px;
+    margin-top: -7px;
+    padding-top: 15px;
+
+  }
+  .exam-2 p{
+    float: left;
+    font-size: 18px;
+    margin-top: -7px;
+    padding-top: 17px;
+    margin-right: 40px;
+    margin-left: 15px;
+  }
+  .exam-2 h2{
+    margin-bottom: -10px;
+    padding: 16px;
+  }
+
+  /* Exam-3 */
+
+  .exam-3{
+    width: 245px;
+    height: 70px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+  }
+  .exam-3 h1{
+    float: left;
+    margin-left: 18px;
+    font-size: 40px;
+    margin-top: -5px;
+    padding-top: 15px;
+
+  }
+  .exam-3 p{
+    float: left;
+    font-size: 18px;
+    margin-top: -5px;
+    padding-top: 17px;
+    margin-right: 40px;
+    margin-left: 12px;
+  }
+  .exam-3 h2{
+    margin-bottom: -10px;
+    padding: 16px;
+  }
+
+  
+ 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

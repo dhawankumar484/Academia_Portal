@@ -1,0 +1,65 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F7F6F2;
+    }
+
+    header{
+      width: 1272px;
+      height: 52px;
+      background-color: #053742;
+      margin-top: -22px;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 25px;
+
+    }
+  
+    header h1{
+      margin-left: 218px;
+      color: #fff;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    
+    .sidenav {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #112031;
+      overflow-x: hidden;
+      padding-top: 20px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    
+    .sidenav i {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: whitesmoke;
+      display: block;
+      margin-top: 50px;
+      margin-left: 45px;
+    }
+    .sidenav a {
+      text-decoration: none;
+    }
+    
+    .sidenav i:hover {
+      color: #f1f1f1;
+    }
+
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+
+      .submission{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        margin-left: 400px;
+      }

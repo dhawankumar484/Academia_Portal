@@ -1,0 +1,273 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #F7F6F2;
+  }
+
+  header{
+    width: 1255px;
+    height: 52px;
+    background-color: #053742;
+    margin-top: -22px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
+
+  }
+
+  header h1{
+    margin-left: 218px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #112031;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .sidenav i {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    display: block;
+    margin-top: 50px;
+    margin-left: 45px;
+  }
+
+  .sidenav a {
+    text-decoration: none;
+  }
+  
+  .sidenav i:hover {
+    color: #f1f1f1;
+  }
+
+  @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+
+    /* Overall Percentage */
+
+    .overall-result{
+        width: 250px;
+        height: 250px;
+        margin-left: 600px;
+        margin-top: 50px;
+        background-image: linear-gradient(#091353, #316B83 );
+        border-radius: 50%;
+        border-width: 15px;
+        border-style:solid;
+        border-color: #d4d4d4;
+    }
+
+    .overall-result h3{
+      text-align: center;
+      color: #EDEDED;
+      margin-top: 50px;
+    }
+
+    .overall-result h1{
+      text-align: center;
+      font-size: 75px;
+      margin-top: -15px;
+      color: #FFF;
+    }
+
+    /* Semester-1 Percentage */
+
+    .semester1-button{
+      width: 410px;
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      background-color: #49c1a2;
+      margin-top: 50px;
+      margin-left: 295px;
+      font-size: 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    .semester1-button:hover{
+      background-color: #0fc947;
+      font-size: 20px;
+    }
+
+    #semester1-result{
+      width: 250px;
+      height: 250px;
+      background-color: #d4d4d4;
+      margin-left: 355px;
+      margin-top: 50px;
+      float: left;
+      background-image: linear-gradient(#091353, #316B83 );
+      border-radius: 50%;
+      border-width: 15px;
+      border-style:solid;
+      border-color: #d4d4d4;
+      display: none;
+    }
+
+  #semester1-result h3{
+    text-align: center;
+    color: #EDEDED;
+    margin-top: 50px;
+  }
+
+  #semester1-result h1{
+    text-align: center;
+    font-size: 75px;
+    margin-top: -15px;
+    color: #FFF;
+  }
+
+  /* Semester-2 percentage */
+
+    .semester2-button{
+      width: 410px;
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      background-color: #49c1a2;
+      margin-top: 50px;
+      margin-left: 85px;
+      font-size: 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    .semester2-button:hover{
+      background-color: #0fc947;
+      font-size: 20px;
+    }
+
+    #semester2-result{
+      width: 250px;
+      height: 250px;
+      background-color: #d4d4d4;
+      margin-left: 855px;
+      margin-top: -275px;
+      float: left;
+      background-image: linear-gradient(#091353, #316B83 );
+      border-radius: 50%;
+      border-width: 15px;
+      border-style:solid;
+      border-color: #d4d4d4;
+      display: none;
+    }
+
+  #semester2-result h3{
+    text-align: center;
+    color: #EDEDED;
+    margin-top: 50px;
+  }
+
+  #semester2-result h1{
+    text-align: center;
+    font-size: 75px;
+    margin-top: -15px;
+    color: #FFF;
+  }
+
+  /* Semester-3 Percentage */
+
+  .semester3-button{
+    width: 410px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #49c1a2;
+    margin-top: 50px;
+    margin-left: 295px;
+    font-size: 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  .semester3-button:hover{
+    background-color: #0fc947;
+    font-size: 20px;
+  }
+
+  #semester3-result{
+    width: 250px;
+    height: 250px;
+    background-color: #d4d4d4;
+    margin-left: 355px;
+    margin-top: 50px;
+    float: left;
+    background-image: linear-gradient(#091353, #316B83 );
+    border-radius: 50%;
+    border-width: 15px;
+    border-style:solid;
+    border-color: #d4d4d4;
+    display: none;
+  }
+
+#semester3-result h3{
+  text-align: center;
+  color: #EDEDED;
+  margin-top: 50px;
+}
+
+#semester3-result h1{
+  text-align: center;
+  font-size: 75px;
+  margin-top: -15px;
+  color: #FFF;
+}
+
+/* Semester-4 Percentage */
+
+.semester4-button{
+  width: 410px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #49c1a2;
+  margin-top: 50px;
+  margin-left: 85px;
+  font-size: 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.semester4-button:hover{
+  background-color: #0fc947;
+  font-size: 20px;
+}
+
+#semester4-result{
+  width: 250px;
+  height: 250px;
+  background-color: #d4d4d4;
+  margin-left: 855px;
+  margin-top: -275px;
+  float: left;
+  background-image: linear-gradient(#091353, #316B83 );
+  border-radius: 50%;
+  border-width: 15px;
+  border-style:solid;
+  border-color: #d4d4d4;
+  display: none;
+}
+
+#semester4-result h3{
+text-align: center;
+color: #EDEDED;
+margin-top: 50px;
+}
+
+#semester4-result h1{
+text-align: center;
+font-size: 75px;
+margin-top: -15px;
+color: #FFF;
+}

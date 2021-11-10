@@ -1,0 +1,146 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F7F6F2;
+    }
+
+    header{
+      width: 1255px;
+      height: 52px;
+      background-color: #053742;
+      margin-top: -22px;
+      text-align: center;
+      padding-top: 5px;
+      padding-bottom: 25px;
+
+    }
+  
+    header h1{
+      margin-left: 218px;
+      color: #fff;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .sidenav {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #112031;
+      overflow-x: hidden;
+      padding-top: 20px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    
+    .sidenav i {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: whitesmoke;
+      display: block;
+      margin-top: 50px;
+      margin-left: 45px;
+    }
+
+    .sidenav a {
+      text-decoration: none;
+    }
+    
+    .sidenav i:hover {
+      color: #f1f1f1;
+    }
+
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+
+      .main{
+          width: 525px;
+          height: 530px;
+          margin-left: 300px;
+          margin-top: 55px;
+          background-color: #EDEDED;
+          border-radius: 30px;
+          display: inline-block;
+      }
+
+      .bi{
+        margin-left: 90px;
+        /* color: black; */
+      }
+
+      h3{
+        text-align: center;
+        display: inline-block;
+        margin-left: 8px;
+        line-height: 10px;
+        font-weight: bold;
+      }
+
+      .name{
+        margin-right: 116px;
+        margin-top: 45px;
+      }
+
+      .dob{
+        margin-right: 63px;
+      }
+      
+      .gender{
+        margin-right: 105px;
+      }
+
+      .fname{
+        margin-right: 50px;
+      }
+
+      .mname{
+        margin-right: 45px;
+      }
+
+      .aadhar{
+        margin-right: 77px;
+      }
+
+      .category{
+        margin-right: 95px;
+      }
+
+      .email{
+        margin-right: 120px;
+      }
+
+      .course{
+        margin-right: 110px;
+      }
+
+      .contact{
+        margin-right: 75px;
+      }
+
+      span{
+        text-align: center;
+      }
+
+      /* Profile Photo */
+
+      .profile-photo{
+        width: 275px;
+        height: 275px;
+        background-color: black;
+        margin-left: 915px;
+        margin-top: -530px;
+        border-radius: 50%;
+      }
+
+      .photo{
+        height: 275px;
+        width: 275px;
+        border-radius: 50%;
+        
+      }
+
+     
